@@ -1,0 +1,99 @@
+
+
+html{
+
+}
+
+header {
+    position: relative;
+    z-index: -1;
+}
+.col-10{
+    margin: 0px 8.3% 12px;
+}
+.container--header{
+ 
+   
+  
+    background-color: white ;
+   
+  
+}
+.container:hover > .container--header{
+    margin: -80px 8.3% 12px;
+    box-shadow: 10px 10px 5px rgba( 0, 0, 0,0.3) ;
+    transition: ease-in 0.5s;
+}
+.header--title{
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 18px;
+   
+  
+}
+@keyframes background-red {
+    from{ background-color: white;}
+    to{ background-color: red;}
+}
+@-webkit-keyframes background-red {
+    from{ background-color: white;}
+    to{ background-color: red;}
+}
+.header--title:hover {
+    color:gold;
+    animation: background-red 2s ;
+    background-color: red;
+    transition: step-end 0.5s;
+}
+
+/* conatiner body */
+
+.container--body{
+    position: relative;
+    z-index: 3;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    transition: ease-in-out 0.5s;
+}
+.container--body:hover {
+    margin-top: -px;
+    box-shadow: 10px -10px 5px rgba( 0, 0, 0,20%)
+}
+
+.body-title{
+    text-align: center;
+
+}
+.conten--body img {
+    width: 100%;
+
+}
+.conten--title{
+    padding: 12px;
+    color: blue;
+   
+}
+.conten--title:hover{
+    color: gold;
+    transition: ease-in-out 0.3s;
+}
+.conten--body{
+    padding: 0 12px;
+    margin-bottom: 12px;
+}
+.conten--body p{
+    margin: 12px 0px;
+    padding-bottom: 24px;
+}
+.conten--body-img--sub{
+    text-align: center;
+   
+    opacity: 0.6;
+    background-color: white ;
+    margin-top: -4px;
+}
+.nguon{
+    padding: 12px;
+    text-align: right;
+    
+}

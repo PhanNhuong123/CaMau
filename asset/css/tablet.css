@@ -1,0 +1,16 @@
+.col-6-md{
+    width: 50%;
+}
+.container--list-item-link{
+    height: 392px;
+}
+.container--title{
+    margin-left: 34%;
+    width: 30%;
+}
+.container {
+    height: 500px;
+}
+.container:hover{
+    width: none ;
+}
